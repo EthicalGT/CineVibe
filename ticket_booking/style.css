@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+body{
+  background-image: url("../img/bg2.jpg");
+  background-size: cover;
+  background-color: #E1E2E4;
+}
+.outlet{
+  margin-top: 10px;
+  width: 650px;
+  border: 1px solid #ccc;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.container {
+  width: 550px;
+  margin: 45px auto;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.form-part {
+  margin: 10px 0;
+}
+
+.form-part h2 {
+  font-size: 25px;
+  color: #fff;
+  font-weight: 400;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-bottom: 15px;
+}
+
+.text-input,
+.radio-button,
+.check-boxes {
+  margin-bottom: 13px;
+  color: #fff;
+}
+
+.text-input label,
+.radio-button label,
+.check-boxes label {
+  display: block;
+  margin-bottom: 3px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.radio-button label,
+.check-boxes label {
+  margin-bottom: 7px;
+  font-weight: 900;
+}
+
+.text-input input,
+.text-input textarea
+ {
+  padding: 10px 10px;
+  display: block;
+  width: 100%;
+  border: solid 3px #ccc;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  resize: none;
+}
+.text-input select{
+  padding: 10px 10px;
+  width: 570px;
+  border: solid 3px #ccc;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  resize: none;
+}
+
+.text-input textarea {
+  height: 100px;
+}
+
+.sqr-input .text-input,
+.sqr-radio-input .radio-button,
+.sqr-check-input .check-boxes {
+  float: left;
+  width: 45%;
+}
+
+.sqr-input .text-input:nth-child(1),
+.sqr-radio-input .radio-button:nth-child(1),
+.sqr-check-input .check-boxes:nth-child(1) {
+  margin-right: 10%;
+}
+
+.cub-input .text-input {
+  float: left;
+  width: 26.66%;
+}
+
+.cub-input .text-input:nth-child(1),
+.cub-input .text-input:nth-child(2) {
+  margin-right: 10%;
+}
+
+.ns-radio-btn input[type="radio"],
+.ns-check-box input[type="checkbox"] {
+  visibility: hidden;
+}
+
+.ns-radio-btn {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  float: left;
+  margin: 3px 7px 0 0;
+  cursor: pointer;
+  position: relative;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  border: 3px solid #ccc;
+  box-shadow: 0 0 1px #ccc;
+  background: rgb(255, 255, 255);
+  background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 1)), color-stop(47%, rgba(246, 246, 246, 1)), color-stop(100%, rgba(237, 237, 237, 1)));
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
+  background: -o-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
+  background: -ms-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed', GradientType=0);
+}
+
+.checkedRadio {
+  -moz-box-shadow: inset 0 0 5px 1px #ccc;
+  -webkit-box-shadow: inset 0 0 5px 1px #ccc;
+  box-shadow: inset 0 0 5px 1px #ccc;
+}
+
+.ns-radio-btn i {
+  border: 1px solid #E1E2E4;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  left: 4px;
+  top: 4px;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+}
+
+.checkedRadio i {
+  background-color: #898A8C;
+}
+
+.ns-check-box {
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+  display: inline-block;
+  margin: 2px 7px 0 0;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 1px #ccc;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background: rgb(255, 255, 255);
+  background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 1)), color-stop(47%, rgba(246, 246, 246, 1)), color-stop(100%, rgba(237, 237, 237, 1)));
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
+  background: -o-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
+  background: -ms-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed', GradientType=0);
+  border: 1px solid #ccc;
+}
+
+
+
+.checkedBox {
+  -moz-box-shadow: inset 0 0 5px 1px #ccc;
+  -webkit-box-shadow: inset 0 0 5px 1px #ccc;
+  box-shadow: inset 0 0 5px 1px #ccc;
+  border-bottom-color: #fff;
+}
+
+.checkedBox i {
+  bottom: 2px;
+  -webkit-transform: rotateZ(0deg);
+  -moz-transform: rotateZ(0deg);
+  -o-transform: rotateZ(0deg);
+  transform: rotateZ(0deg);
+}
+
+.radio-button ul li,
+.check-boxes ul li {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 30px;
+  margin-bottom: 7px;
+}
+
+.sqr-radio-input .radio-button ul li,
+.sqr-check-input .check-boxes ul li {
+  margin-right: 15px;
+}
+
+.radio-button ul li span {
+  display: inline-block;
+  margin-top: 8px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.check-boxes ul li span {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 5px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.sqr-input .text-input .sqr-input .text-input:nth-child(1) {
+  margin-right: 15%;
+  width: 40%;
+}
+
+.margin-bottom-zero {
+  margin-bottom: 0px;
+}
+.btn{
+  text-align: center;
+}
+.btn input[type="submit"]{
+  margin-top: 15px;
+  width: 200px;
+  height: 40px;
+  background-color: #000;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 17px;
+  cursor: pointer;
+}
+.btn input[type="submit"]:hover{
+  background-color: orangered;
+  color: #fff;
+  transition: 1s ease;
+}
+.UPI{
+  display: none;
+}
+.img{
+  text-align: center;
+}
+img{
+  border: 1px solid #ccc;
+  width: 250px;
+  height: 200px;
+}
